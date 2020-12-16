@@ -20,6 +20,7 @@ function Dets() {
     }
   }
    }`;
+    //gi
     const {loading, error, data} = useQuery(ALBUM);
     if (loading) return <p>Loading...</p>
     if (error) return <p>error</p>
